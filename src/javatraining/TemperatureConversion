@@ -1,0 +1,11 @@
+import java.util.*;
+
+class TemperatureConversion {
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the temperature: ");
+    double cel=sc.nextDouble();
+    System.out.println(cel+" Celsius = "+(1.8*cel+32)+" Fahrenheit");
+     System.out.println(cel+" Celsius = "+(cel+243)+" Kelvin");
+    }
+}
